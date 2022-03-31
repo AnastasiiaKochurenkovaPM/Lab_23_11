@@ -1,0 +1,19 @@
+{
+  "name": "task7",
+  "version": "1.0.0",
+  "description": "Lab_var_1",
+  "main": "main_index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "AnastasiiaKochurenkovaPM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnastasiiaKochurenkovaPM/Lab_23_11/issues"
+  },
+  "homepage": "https://github.com/AnastasiiaKochurenkovaPM/Lab_23_11#readme",
+  "dependencies": {
+    "custom_modules": "file:custom_modules"
+  }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<%- include('../block/head.ejs'); %>
+
+<body class="bg-light text-dark text-center">
+
+   <%- include('../block/header.ejs'); %>
+
+   <!-- Логотип університету -->
+   <div class="container d-flex justify-content-center my-5">
+      <img src="/web_application/frontend/img/images.png" class="img-fluid">
+   </div>
+
+   <!-- Текст сторінки -->
+   <h4>Лабораторні роботи </h4>
+   <h4>Виконала: Кочуренкова Анастасія</h4>
+   <h4 class="text-primary mb-3"
+       data-bs-toggle="collapse"
+       href="#task"
+       role="button"
+       aria-expanded="false"
+       aria-controls="task"">Варіант №1</h4>
+
+   <!-- Блок із завданням -->
+   <div class="collapse" id="task">
+      <div class="container-fluid bg-pink border-top border-secondary">
+         <div class="row my-3">
+            <!-- Блок-заглушка -->
+            <div class="col-1 d-none d-lg-block"></div>
+            <!-- Лівий блок -->
+            <div class="col-12 col-md-6 col-lg-5 col-xl-4">
+               <div class="container-flex">
+                  <p class="text-primary fs-4 mx-5">Реалізувати з допомогою прототипів або класів такі інформаційні об’єкти:</p>
+                  <div class="d-inline-block">
+                     <ul class="text-start fs-5">
+                        <li>Поїзд</li>
+                        <li>Пасажир</li>
+                        <li>Квитки</li>
+                        <li>Продані квитки</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <!-- Блок-заглушка -->
+            <div class="col-2 d-none d-xl-block"></div>
+            <!-- Правий блок -->
+            <div class="col-12 col-md-6 col-lg-5 col-xl-4">
+               <div class="container-flex">
+                  <p class="text-primary fs-4 mx-5">Реалізувати такі можливості системи:</p>
+                  <div class="d-inline-block">
+                     <ul class="text-start fs-5">
+                        <li>Додавання нового поїзда в колекцію</li>
+                        <li>Редагування поїзда в колекції</li>
+                        <li>Видалення поїзда з колекції</li>
+                        <li>Пошук поїзда в колекції</li>
+                        <br>
+                        <li>Додавання  пасажира </li>
+                        <li>Редагування пасажира</li>
+                        <li>Видалення пасажира</li>
+                        <li>Пошук пасажира</li>
+                        <li>Пошук усіх пасажирів</li>
+                        <br>
+                        <li>Купити квиток</li>
+                        <li>Заміна квитка</li>
+                        <li>Скасувати покупку квитка</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <!-- Блок-заглушка -->
+            <div class="col-1 d-none d-lg-block"></div>
+         </div>
+      </div>
+   </div>
+   <%- include('../block/script.ejs'); %>
+</body>
+</html>

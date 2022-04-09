@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<%- include('../block/head.ejs'); %>
+
+<body class="bg-dark text-light">
+
+  <!-- Підключення шапки сайту -->
+  <%- include('../block/header.ejs'); %>
+
+  <!-- Підключення блоку керування -->
+  <%- include('../block/control.ejs'); %>
+
+  <!-- Додавання таблиці -->
+  <%- include('../block/table_start.ejs'); %>
+  <%- include('../block/table_head_passenger.ejs'); %>
+  <%- include('../block/table_end.ejs'); %>
+
+  <!-- Підключення модальних вікон -->
+  <%- include('../block/modal_confirm.ejs'); %>
+  <%- include('../block/modal_add_passenger.ejs'); %>
+
+  <!-- Підключення скриптів -->
+  <%- include('../block/script.ejs'); %>
+
+</body>
+
+</html>

@@ -1,19 +1,26 @@
 {
-  "name": "task7",
+  "name": "Lab_var_1",
   "version": "1.0.0",
-  "description": "Lab_var_1",
-  "main": "main_index.js",
+  "description": "",
+  "main": "index.js",
+  "config": {
+    "port_frontend": "8080",
+    "port_backend": "3000"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3",
+    "custom_modules": "^1.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "jquery": "^3.6.0",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "frontend": "nodemon web_application/frontend/main.js use_db=false -e js,ejs",
+    "frontend_db": "nodemon web_application/frontend/main.js use_db=true -e js,ejs"
   },
   "keywords": [],
-  "author": "AnastasiiaKochurenkovaPM",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/AnastasiiaKochurenkovaPM/Lab_23_11/issues"
-  },
-  "homepage": "https://github.com/AnastasiiaKochurenkovaPM/Lab_23_11#readme",
-  "dependencies": {
-    "custom_modules": "file:custom_modules"
-  }
+  "author": "",
+  "license": "ISC"
 }

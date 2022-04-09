@@ -1,4 +1,4 @@
-const mod = require('../custom_modules');
+const mod = require('./custom_modules');
 
 // Додавання потяга
 let tr1 = mod.add_Train("Train_1", "Kyiv - Odessa");
